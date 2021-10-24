@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     background-color: #333;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -8,6 +7,8 @@ body {
 
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -21,8 +22,6 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
-    position: absolute;
-    width: 100%;
     padding-top: 40px;
     
 }
@@ -107,21 +106,28 @@ input.in_email {
 .btn:hover {
     background-color: blue;
 }
-    
 
-.background {
-    position: absolute;
-    left: 0.07%;
-    right: 0%;
-    top: -300%;
-    bottom: -100%;
-
-    background: linear-gradient(43.85deg, #00F3B9 0.85%, #2187FF 80.37%);
-
-}
 
 .center {
+    height: 150px;
+    margin-top: 165px;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+}
+
+.finger {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.fast {
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.calend {
+    font-size: 16px;
+    font-weight: 700;
 }
