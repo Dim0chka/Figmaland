@@ -119,3 +119,9 @@ input.in_email {
     background: linear-gradient(43.85deg, #00F3B9 0.85%, #2187FF 80.37%);
 
 }
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
