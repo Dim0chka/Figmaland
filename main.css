@@ -109,12 +109,16 @@ input.in_email {
 
 .background {
     display: flex;
-    justify-content: center;
+    
     flex-direction: column;
 
     width: 100%;
     height: 100vh;
-    background: linear-gradient(43.85deg, #00F3B9 0.85%, #2187FF 80.37%);
+    background: 
+    url("img/gadient.png") center
+    no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover; 
 }
 
 .center {
@@ -126,6 +130,7 @@ input.in_email {
 }
 
 .finger {
+    padding-top: 250px;
     padding-bottom: 17px;
     font-size: 22px;
     font-weight: 700;
@@ -143,3 +148,12 @@ input.in_email {
     font-weight: 700;
 }
 
+
+.btnMac {
+    justify-content: space-between;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
