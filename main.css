@@ -17,21 +17,32 @@ body {
     box-sizing: border-box;
 }
 
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: 
+    url("img/gradient2.png") center
+    no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover; 
+}
+
 .header {
+    margin-top: 30px;
+    height: 150px;
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
     z-index: 1000;
-    padding-top: 40px;
     
 }
 
 .container {
-    width: 100%;
-    max-width: 1240px;
-    padding: 0 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1210px;
     margin: 0 auto;
 }
 
@@ -39,9 +50,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
-.nav_prod {
+.nav {
     position: relative;
     display: inline-block;
     font-size: 15px;
@@ -51,7 +67,7 @@ body {
     transition: linear .2s;
 }
 
-.nav_prod::after {
+.nav::after {
     content: "";
     display: block;
     position: absolute;
@@ -63,11 +79,11 @@ body {
 
 }
 
-.nav_prod:hover {
+.nav:hover {
     color: #2091F9;
 }
 
-.nav_prod:hover::after {
+.nav:hover::after {
     opacity: 1;
     background-color: #2091F9;
 }
@@ -93,7 +109,10 @@ input.in_email {
 }
 
 .btn {
-    padding: 18px 38px;
+    line-height: 1rem;
+    padding: 15px;
+    width: 150px;
+    margin: 0 auto;
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
@@ -107,30 +126,8 @@ input.in_email {
     background-color: blue;
 }
 
-.background {
-    display: flex;
-    
-    flex-direction: column;
-
-    width: 100%;
-    height: 100vh;
-    background: 
-    url("img/gadient.png") center
-    no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover; 
-}
-
-.center {
-    width: 100%;
-    max-width: 880px;
-    margin: 0 auto;
-
-    text-align: center;
-}
 
 .finger {
-    padding-top: 250px;
     padding-bottom: 17px;
     font-size: 22px;
     font-weight: 700;
@@ -149,11 +146,7 @@ input.in_email {
 }
 
 
-.btnMac {
-    justify-content: space-between;
-    height: 500px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    
+.macbook {
+    margin-top: 115px;
 }
+
