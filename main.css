@@ -18,6 +18,8 @@ body {
 }
 
 .header {
+    width: 100%;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -27,6 +29,7 @@ body {
 }
 
 .container {
+    width: 100%;
     max-width: 1240px;
     padding: 0 15px;
     margin: 0 auto;
@@ -90,15 +93,12 @@ input.in_email {
 }
 
 .btn {
+    padding: 18px 38px;
+    text-decoration: none;
     font-size: 16px;
     font-weight: 500;
-    cursor: pointer;
-    align-items: center;
     border-radius: 35px;
     background-color: #2091F9;
-    border: none;
-    width: 125px;
-    height: 52px;
     color: #fff;
     transition: .2s linear;
 }
@@ -107,27 +107,39 @@ input.in_email {
     background-color: blue;
 }
 
+.background {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(43.85deg, #00F3B9 0.85%, #2187FF 80.37%);
+}
 
 .center {
-    height: 150px;
-    margin-top: 165px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+
+    text-align: center;
 }
 
 .finger {
+    padding-bottom: 17px;
     font-size: 22px;
     font-weight: 700;
 }
 
 .fast {
+    padding-bottom: 27px;
     font-size: 55px;
     font-weight: 900;
 }
 
 .calend {
+    padding-bottom: 90px;
     font-size: 16px;
     font-weight: 700;
 }
+
