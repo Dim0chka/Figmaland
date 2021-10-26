@@ -23,7 +23,7 @@ body {
     justify-content: center;
 
     background: 
-    url("img/gradient2.png") center
+    url("img/gradient.png") center
     no-repeat;
     -webkit-background-size: cover;
     background-size: cover; 
@@ -46,7 +46,7 @@ body {
     margin: 0 auto;
 }
 
-.header_nav {
+.headerNav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,14 +87,6 @@ body {
     opacity: 1;
     background-color: #2091F9;
 }
-
-/* .btnInp {
-    
-    display: flex;
-    justify-content: space-between;
-    
-    
-} */
 
 #color-placeholder::-webkit-input-placeholder {
     color: black
@@ -146,19 +138,19 @@ input.in_email {
 
 
 
-.finger {
+.subtitle {
     padding-bottom: 17px;
     font-size: 22px;
     font-weight: 700;
 }
 
-.fast {
+.title {
     padding-bottom: 27px;
     font-size: 55px;
     font-weight: 900;
 }
 
-.calend {
+.text {
     padding-bottom: 90px;
     font-size: 16px;
     font-weight: 700;
@@ -167,5 +159,22 @@ input.in_email {
 
 .macbook {
     margin-top: 115px;
+    margin-bottom: 230px;
 }
+
+/* second page */
+
+.midddle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title2 {
+    padding-bottom: 27px;
+    font-size: 47px;
+    font-weight: 400;
+}
+
+
 
