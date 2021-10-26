@@ -88,11 +88,13 @@ body {
     background-color: #2091F9;
 }
 
-.btn_inp {
+/* .btnInp {
+    
     display: flex;
     justify-content: space-between;
-    width: 437px;
-}
+    
+    
+} */
 
 #color-placeholder::-webkit-input-placeholder {
     color: black
@@ -109,10 +111,9 @@ input.in_email {
 }
 
 .btn {
-    line-height: 1rem;
     padding: 15px;
     width: 150px;
-    margin: 0 auto;
+   
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
@@ -125,6 +126,24 @@ input.in_email {
 .btn:hover {
     background-color: blue;
 }
+
+.btn2 {
+    padding: 15px;
+    width: 150px;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 35px;
+    background-color: #2091F9;
+    color: #fff;
+    transition: .2s linear;
+}
+
+.btn2:hover {
+    background-color: blue;
+}
+
 
 
 .finger {
