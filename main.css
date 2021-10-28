@@ -139,18 +139,22 @@ input.in_email {
 
 
 .subtitle {
+    letter-spacing: 0.1px;
     padding-bottom: 17px;
     font-size: 22px;
     font-weight: 700;
 }
 
 .title {
+    letter-spacing: 0.2px;
     padding-bottom: 27px;
     font-size: 55px;
     font-weight: 900;
 }
 
 .text {
+    line-height: 20px;
+    letter-spacing: 0.2px;
     padding-bottom: 90px;
     font-size: 16px;
     font-weight: 700;
@@ -171,15 +175,24 @@ input.in_email {
 }
 
 .title2 {
+    letter-spacing: 0.2px;
     padding-bottom: 27px;
     font-size: 47px;
     font-weight: 400;
 }
 
+.text2 {
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    padding-bottom: 220px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .mainPart {
     width: 100%;
     padding: 0 15px;
-    max-width: 1240px;
+    max-width: 1040px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -187,4 +200,47 @@ input.in_email {
 }
 
 
+.screen {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
 
+.mainText {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titleIcon {
+    align-items: center;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+
+.fa-times-circle {
+    text-decoration: none;
+    font-size: 35px;
+    color: #2091F9;
+}
+
+.subtitle2 {
+    letter-spacing: 0.1px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.textIcon {
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    font-size: 18px;
+    font-weight: 400;
+}
