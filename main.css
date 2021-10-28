@@ -162,12 +162,14 @@ input.in_email {
 
 .macbook {
     margin-top: 115px;
+    margin-bottom: 135px;
 }
 
 /* second page */
 
 .middle {
-    padding: 220px 0;
+    padding-top: 95px;
+    padding-bottom: 220px;
     display: flex;
     flex-direction: column;
 }
@@ -241,4 +243,18 @@ input.in_email {
     letter-spacing: 0.2px;
     font-size: 18px;
     font-weight: 400;
+}
+
+/* third page */
+
+.middle2{
+    padding: 100px 0;
+}
+
+.allbtn {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
