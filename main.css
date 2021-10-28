@@ -20,7 +20,6 @@ body {
 .top {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 
     background: 
     url("img/gradient.png") center
@@ -163,15 +162,14 @@ input.in_email {
 
 .macbook {
     margin-top: 115px;
-    margin-bottom: 230px;
 }
 
 /* second page */
 
 .middle {
+    padding: 220px 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
 }
 
 .title2 {
@@ -184,12 +182,13 @@ input.in_email {
 .text2 {
     line-height: 20px;
     letter-spacing: 0.2px;
-    padding-bottom: 220px;
+    margin-bottom: 220px;
     font-size: 16px;
     font-weight: 700;
 }
 
 .mainPart {
+    flex-wrap: wrap;
     width: 100%;
     padding: 0 15px;
     max-width: 1040px;
@@ -214,7 +213,6 @@ input.in_email {
 .textPart {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .titleIcon {
