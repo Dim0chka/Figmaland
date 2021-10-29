@@ -255,6 +255,4 @@ input.in_email {
     margin: 0 auto;
     width: 400px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
