@@ -256,3 +256,50 @@ input.in_email {
     width: 400px;
     display: flex;
 }
+
+/* fourth page */
+
+.middle3 {
+    margin-top: 260px;
+    margin-bottom: 165px;
+}
+
+.mainPart2 {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 15px;
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.human {
+    align-self: center;
+}
+
+.mainText2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.subtext {
+    padding-top: 41px;
+    padding-bottom: 34px;
+    color: #374754;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+
+.inpBtn {
+    width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
