@@ -168,8 +168,8 @@ input.in_email {
 /* second page */
 
 .middle {
-    padding-top: 95px;
-    padding-bottom: 220px;
+    margin-top: 95px;
+    margin-bottom: 220px;
     display: flex;
     flex-direction: column;
 }
@@ -197,11 +197,11 @@ input.in_email {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
 
 .screen {
+    align-self: center;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
@@ -248,7 +248,7 @@ input.in_email {
 /* third page */
 
 .middle2{
-    padding: 100px 0;
+    margin: 100px 0;
 }
 
 .allbtn {
