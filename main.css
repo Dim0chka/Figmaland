@@ -303,3 +303,48 @@ input.in_email {
     
 }
 
+/* fifth page */
+
+.middle4 {
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+
+.logoLink {
+    padding-bottom: 90px;
+    max-width: 1050px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 60px;
+    align-items: center;
+    margin-bottom: 70px;
+    margin: 0 auto;
+}
+
+.fa-app-store-ios {
+    color: #2091F9;
+}
+
+.fa-aviato {
+    color: orange;
+}
+
+.fa-android {
+    color: greenyellow;
+}
+
+.fa-yandex {
+    color: red;
+}
+
+.fa-google {
+    color: #fff;
+}
+
+.fa-apple {
+    color: grey;
+}
+
+.fa-vk {
+    color: blue;
+}
