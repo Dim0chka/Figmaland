@@ -1,5 +1,5 @@
 body {
-    background-color: #333;
+    background-color: #252B42;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #fff;
@@ -102,6 +102,7 @@ input.in_email {
 }
 
 .btn {
+    text-align: center;
     padding: 15px;
     width: 150px;
    
@@ -317,7 +318,6 @@ input.in_email {
     justify-content: space-around;
     font-size: 60px;
     align-items: center;
-    margin-bottom: 70px;
     margin: 0 auto;
 }
 
@@ -348,3 +348,50 @@ input.in_email {
 .fa-vk {
     color: blue;
 }
+
+/* sixth page */
+
+.middle5 {
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+.subtitle3 {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    padding-bottom: 17px;
+}
+
+.titleall  {
+    display: flex;
+    flex-direction: column;
+}
+
+.textAll {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 17px;
+}
+
+.dollar {
+    font-size: 55px;
+    letter-spacing: 0.2px;
+    font-weight: 900;
+}
+
+.month {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+}
+
+.text3 {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    padding-bottom: 19px;
+}
+
