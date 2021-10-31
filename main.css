@@ -45,7 +45,7 @@ body {
     margin: 0 auto;
 }
 
-.headerNav {
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -91,7 +91,7 @@ body {
     color: black
 }
 
-input.in_email {
+input.inp {
     width: 300px;
     height: 54px;
     border-radius: 40px;
@@ -190,7 +190,7 @@ input.in_email {
     font-weight: 700;
 }
 
-.mainPart {
+.content {
     flex-wrap: wrap;
     width: 100%;
     padding: 0 15px;
@@ -206,19 +206,19 @@ input.in_email {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.mainText {
+.items {
     height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.textPart {
+.columnInfo {
     display: flex;
     flex-direction: column;
 }
 
-.titleIcon {
+.headline {
     align-items: center;
     width: 90%;
     display: flex;
@@ -239,7 +239,7 @@ input.in_email {
     font-weight: 700;
 }
 
-.textIcon {
+.textParagraphe {
     line-height: 27px;
     letter-spacing: 0.2px;
     font-size: 18px;
@@ -366,6 +366,7 @@ input.in_email {
 .titleall  {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .textAll {
