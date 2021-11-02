@@ -168,21 +168,21 @@ input.inp {
 
 /* second page */
 
-.middle {
+.Product1 {
     margin-top: 95px;
     margin-bottom: 220px;
     display: flex;
     flex-direction: column;
 }
 
-.title2 {
+.title-h2 {
     letter-spacing: 0.2px;
     padding-bottom: 27px;
     font-size: 47px;
     font-weight: 400;
 }
 
-.text2 {
+.text-2 {
     line-height: 20px;
     letter-spacing: 0.2px;
     margin-bottom: 220px;
@@ -220,11 +220,11 @@ input.inp {
 
 .headline {
     align-items: center;
-    width: 90%;
+    width: 230px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 17px;
+    padding-bottom: 17px;
 }
 
 .fa-times-circle {
@@ -233,7 +233,7 @@ input.inp {
     color: #2091F9;
 }
 
-.subtitle2 {
+.subtitle-2 {
     letter-spacing: 0.1px;
     font-size: 22px;
     font-weight: 700;
@@ -248,11 +248,11 @@ input.inp {
 
 /* third page */
 
-.middle2{
+.Product2 {
     margin: 100px 0;
 }
 
-.allbtn {
+.btns {
     margin: 0 auto;
     width: 400px;
     display: flex;
@@ -260,12 +260,12 @@ input.inp {
 
 /* fourth page */
 
-.middle3 {
+.Product3 {
     margin-top: 260px;
     margin-bottom: 165px;
 }
 
-.mainPart2 {
+.content-2 {
     flex-wrap: wrap;
     width: 100%;
     padding: 0 15px;
@@ -279,7 +279,7 @@ input.inp {
     align-self: center;
 }
 
-.mainText2 {
+.right-column {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -296,7 +296,7 @@ input.inp {
     letter-spacing: 0.2px;
 }
 
-.inpBtn {
+.inp-btn {
     width: 500px;
     text-align: center;
     display: flex;
@@ -306,12 +306,12 @@ input.inp {
 
 /* fifth page */
 
-.middle4 {
+.Product4 {
     margin-top: 90px;
     margin-bottom: 80px;
 }
 
-.logoLink {
+.partners {
     padding-bottom: 90px;
     max-width: 1050px;
     display: flex;
@@ -351,31 +351,17 @@ input.inp {
 
 /* sixth page */
 
-.middle5 {
+.Pricing {
     margin-top: 110px;
     margin-bottom: 100px;
 }
 
-.subtitle3 {
-    font-weight: 700;
-    font-size: 16px;
-    letter-spacing: 0.2px;
-    padding-bottom: 17px;
-}
-
-.titleall  {
+.left-column  {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.textAll {
-    width: 230px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 17px;
-}
 
 .dollar {
     font-size: 55px;
@@ -389,7 +375,7 @@ input.inp {
     letter-spacing: 0.2px;
 }
 
-.text3 {
+.text-3 {
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 0.2px;
