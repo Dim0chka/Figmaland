@@ -382,3 +382,66 @@ input.inp {
     padding-bottom: 19px;
 }
 
+/* seventh page */
+
+.about {
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+.column-about {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 1200px;
+}
+
+.personal {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    width: 335px;
+    height: 542px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.ava {
+    align-self: center;
+    width: 149px;
+    height: 149px;
+}
+
+.stars {
+    margin: 0 auto;
+    width: 146px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fa-star {
+    color: #F3CD03;
+    font-size: 25px;
+}
+
+.textLink {
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    color: #252B42;
+}
+
+.textParagraphe span {
+    color: #374754;
+}
+
+.job {
+    color: #374754;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1px;
+}
