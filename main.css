@@ -390,6 +390,7 @@ input.inp {
 }
 
 .column-about {
+    margin-bottom: 80px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -451,4 +452,8 @@ input.inp {
     padding-bottom: 90px;
     font-size: 47px;
     font-weight: 400;
+}
+
+.btn2 span {
+    padding-top: 80px;
 }
