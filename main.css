@@ -79,12 +79,12 @@ header {
 }
 
 .nav:hover {
-    color: #2091F9;
+    color: #F3CD03;
 }
 
 .nav:hover::after {
     opacity: 1;
-    background-color: #2091F9;
+    background-color: #F3CD03;
 }
 
 #color-placeholder::-webkit-input-placeholder {
@@ -169,8 +169,8 @@ input.inp {
 /* second page */
 
 .Product1 {
-    margin-top: 95px;
-    margin-bottom: 220px;
+    padding-top: 95px;
+    padding-bottom: 220px;
     display: flex;
     flex-direction: column;
 }
@@ -249,7 +249,7 @@ input.inp {
 /* third page */
 
 .Product2 {
-    margin: 100px 0;
+    padding: 100px 0;
 }
 
 .btns {
@@ -261,8 +261,8 @@ input.inp {
 /* fourth page */
 
 .Product3 {
-    margin-top: 260px;
-    margin-bottom: 165px;
+    padding-top: 220px;
+    padding-bottom: 165px;
 }
 
 .content-2 {
@@ -307,8 +307,8 @@ input.inp {
 /* fifth page */
 
 .Product4 {
-    margin-top: 90px;
-    margin-bottom: 80px;
+    padding-top: 90px;
+    padding-bottom: 80px;
 }
 
 .partners {
@@ -352,8 +352,8 @@ input.inp {
 /* sixth page */
 
 .Pricing {
-    margin-top: 110px;
-    margin-bottom: 100px;
+    padding-top: 110px;
+    padding-bottom: 100px;
 }
 
 .left-column  {
@@ -384,9 +384,9 @@ input.inp {
 
 /* seventh page */
 
-.about {
-    margin-top: 110px;
-    margin-bottom: 100px;
+.About {
+    padding-top: 110px;
+    padding-bottom: 100px;
 }
 
 .column-about {
@@ -457,3 +457,50 @@ input.inp {
 .btn2 span {
     padding-top: 80px;
 }
+
+/* Last page */
+
+.Contact {
+    padding-top: 210px;
+    padding-bottom: 100px;
+}
+
+.pad {
+    padding-bottom: 75px;
+}
+
+.social-icon {
+    margin: 0 auto;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 33px;
+}
+
+.fa-twitter {
+    color: #2091F9;
+    transition: linear .2s;
+}
+
+.fa-twitter:hover {
+    color: #F3CD03;
+}
+
+.fa-facebook-square {
+    color: #2091F9;
+    transition: linear .2s;
+}
+
+.fa-facebook-square:hover {
+    color: #F3CD03;
+}
+
+.fa-instagram {
+    color: #2091F9;
+    transition: linear .2s;
+}
+
+.fa-instagram:hover {
+    color: #F3CD03;
+}
+
