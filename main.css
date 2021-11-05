@@ -528,3 +528,40 @@ input.inp {
     width: 871px;
     height: 341px;
 }
+
+.adress-block {
+    padding-top: 60px;
+    width: 539px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.block {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-map-marker-alt {
+    font-size: 25px;
+    color: #2091F9;
+}
+
+.contact-as {
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1px;
+    line-height: 18px;
+}
+
+.fa-mobile {
+    font-size: 25px;
+    color: #2091F9;
+}
+
+.fa-envelope {
+    font-size: 25px;
+    color: #2091F9;
+}
