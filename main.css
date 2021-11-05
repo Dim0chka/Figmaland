@@ -343,31 +343,69 @@ input.inp {
 }
 
 .fa-app-store-ios {
-    color: #2091F9;
+    transition: linear .2s;
+    color: grey;
+}
+
+.fa-app-store-ios:hover {
+    color: #1A74E8;
 }
 
 .fa-aviato {
+    transition: linear .2s;
+    color: grey;
+}
+
+.fa-aviato:hover {
     color: orange;
 }
 
 .fa-android {
-    color: greenyellow;
+    transition: linear .2s;
+    color: grey;
+}
+
+.fa-android:hover {
+    color: lawngreen;
 }
 
 .fa-yandex {
+    transition: linear .2s;
+    color: grey;
+}
+
+.fa-yandex:hover {
     color: red;
 }
 
 .fa-google {
+    transition: linear .2s;
+    color: grey;
+}
+
+.fa-google:hover {
     color: #fff;
 }
 
 .fa-apple {
+    transition: linear .2s;
     color: grey;
 }
 
+.fa-apple:hover {
+    transition: linear .2s;
+    color: #fff;
+}
+
 .fa-vk {
-    color: blue;
+    transition: linear .2s;
+    color: grey;
+}
+
+.fa-vk:hover {
+    border-radius: 3px;
+    background-color: blue;
+    color: #fff
 }
 
 /* sixth page */
@@ -496,29 +534,35 @@ input.inp {
 }
 
 .fa-twitter {
+    transition: transform .2s linear; 
     color: #2091F9;
     transition: linear .2s;
 }
 
 .fa-twitter:hover {
+    transform: translateY(-7px);
     color: #F3CD03;
 }
 
 .fa-facebook-square {
+    transition: transform .2s linear; 
     color: #2091F9;
     transition: linear .2s;
 }
 
 .fa-facebook-square:hover {
+    transform: translateY(-7px);
     color: #F3CD03;
 }
 
 .fa-instagram {
+    transition: transform .2s linear; 
     color: #2091F9;
     transition: linear .2s;
 }
 
 .fa-instagram:hover {
+    transform: translateY(-7px);
     color: #F3CD03;
 }
 
