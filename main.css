@@ -17,6 +17,36 @@ body {
     box-sizing: border-box;
 }
 
+
+.pad17 {
+    padding-bottom: 17px;
+}
+
+.pad27 {
+    padding-bottom: 27px;
+}
+
+.pad34 {
+    padding-bottom: 34px;
+}
+
+.pad68 {
+    padding-bottom: 68px;
+}
+
+.pad75 {
+    padding-bottom: 75px;
+}
+
+.pad90 {
+    padding-bottom: 90px;
+}
+
+.pad220 {
+    padding-bottom: 220px;
+}
+
+
 .top {
     display: flex;
     flex-direction: column;
@@ -140,14 +170,12 @@ input.inp {
 
 .subtitle {
     letter-spacing: 0.1px;
-    padding-bottom: 17px;
     font-size: 22px;
     font-weight: 700;
 }
 
 .title {
     letter-spacing: 0.2px;
-    padding-bottom: 27px;
     font-size: 55px;
     font-weight: 900;
 }
@@ -155,7 +183,6 @@ input.inp {
 .text {
     line-height: 20px;
     letter-spacing: 0.2px;
-    padding-bottom: 90px;
     font-size: 16px;
     font-weight: 700;
 }
@@ -175,9 +202,8 @@ input.inp {
     flex-direction: column;
 }
 
-.title-h2 {
+.title2 {
     letter-spacing: 0.2px;
-    padding-bottom: 27px;
     font-size: 47px;
     font-weight: 400;
 }
@@ -185,7 +211,6 @@ input.inp {
 .text-2 {
     line-height: 20px;
     letter-spacing: 0.2px;
-    margin-bottom: 220px;
     font-size: 16px;
     font-weight: 700;
 }
@@ -224,7 +249,6 @@ input.inp {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 17px;
 }
 
 .fa-times-circle {
@@ -287,8 +311,6 @@ input.inp {
 
 
 .subtext {
-    padding-top: 41px;
-    padding-bottom: 34px;
     color: #374754;
     margin: 0 auto;
     font-weight: 400;
@@ -312,7 +334,6 @@ input.inp {
 }
 
 .partners {
-    padding-bottom: 90px;
     max-width: 1050px;
     display: flex;
     justify-content: space-around;
@@ -465,9 +486,6 @@ input.inp {
     padding-bottom: 100px;
 }
 
-.pad {
-    padding-bottom: 75px;
-}
 
 .social-icon {
     margin: 0 auto;
@@ -475,7 +493,6 @@ input.inp {
     display: flex;
     justify-content: space-between;
     font-size: 33px;
-    padding-bottom: 75px;
 }
 
 .fa-twitter {
