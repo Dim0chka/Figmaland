@@ -118,7 +118,7 @@ header {
 }
 
 #color-placeholder::-webkit-input-placeholder {
-    color: black
+    color: #18171D;
 }
 
 input.inp {
@@ -428,6 +428,7 @@ input.inp {
 }
 
 .personal {
+    border: 1px solid #DEDEDE;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -569,6 +570,7 @@ input.inp {
 }
 
 .sign-form {
+    border: 1px solid #DEDEDE;
     background-color: #fff;
     border-radius: 20px;
     display: flex;
@@ -576,5 +578,37 @@ input.inp {
     justify-content: space-around;
     width: 868px;
     height: 670px;
-    
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin: 0 auto;
+}
+
+input.inp2 {
+    font-weight: 400;
+    margin: 0 auto;
+    width: 768px;
+    outline: none;
+    border: none;
+    padding: 19px 0;
+    padding-left: 35px;
+    letter-spacing: 0.1px;
+    font-size: 19px;
+    border-radius: 39px;
+    border: 1px solid #E8E8E8;
+}
+
+textarea.inp3 {
+    resize: none;
+    outline: none;
+    margin: 0 auto;
+    width: 768px;
+    border: 1px solid #E8E8E8;
+    background-color: #F5F5F5;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 23px 20px;
+}
+
+.bord {
+    cursor: pointer;
+    border: none;
 }
